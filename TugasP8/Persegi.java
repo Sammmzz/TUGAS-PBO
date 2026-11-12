@@ -14,14 +14,12 @@ public class Persegi extends BangunDatar{
     
     @Override
     protected float luas(){
-        this.sisi = sisi * sisi;
-        return sisi;
+        return sisi * sisi;
     }
     
     @Override
     protected float keliling(){
-        float keliling = sisi * 4;
-        return keliling;
+        return sisi * 4;
     }
     
     public void setSisi(float sisi){

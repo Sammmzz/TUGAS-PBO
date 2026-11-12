@@ -40,7 +40,7 @@ public class Main {
         System.out.println(" ");
         
         // Segitiga
-        System.out.println("Persegi Panjang : ");
+        System.out.println("Segitiga : ");
         Segitiga s = new Segitiga();
         s.setAlas(5);
         s.setTinggi(9);
